@@ -29,10 +29,10 @@
 <hr>
 
 #### Clone this repository:
-```git clone https://github.com/your-username/your-project.git```
+```git clone https://github.com/krishna050702/QuizApp.git```
 
 #### Change into the project directory:
-```cd your-project```
+```cd QuizApp```
 
 #### Install dependencies:
 ```npm install```
