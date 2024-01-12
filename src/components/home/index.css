@@ -1,0 +1,69 @@
+.box{
+    width:30rem;
+    height:30rem;
+    background-color: #b4c3ffef;
+    display: grid;
+    align-content: space-evenly;
+    color: black;
+    border-radius: 10%;
+    width: 30rem;
+    height: 20rem;
+}
+.emailIn{
+    height: 3rem;
+    width: 20rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+
+.col4{
+    display: grid;
+    font-size: large;
+    grid-template-rows: 1fr 1fr;
+    justify-content:space-evenly;
+    row-gap: 1rem;
+}
+
+.submit{
+    background-color: #007BFD;
+    color: #fff;
+}
+.submit.clicked {
+    background-color: #24cb3d;
+    color: #fff;
+  }
+  
+
+  @media screen and (max-width: 580px) {
+    .box{
+        width:24rem;
+        height:24rem;
+       
+    }
+    .emailIn{
+        height: 3rem;
+        width: 17rem;
+        
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 400px) {
+    .box{
+        width:20rem;
+        height:20rem;
+       
+    }
+    .emailIn{
+        height: 3rem;
+        width: 15rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    .headline{
+        font-size: 1rem;
+    }
+  }
+  
+  

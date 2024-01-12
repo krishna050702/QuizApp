@@ -1,0 +1,42 @@
+.question{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color: black;
+}
+
+.att{
+    padding: 1.2rem;
+    background-color: #AABDFF;
+    color: #fff;
+}
+.ntatt{
+    padding: 1.2rem;
+    background-color: #FFAAAF;
+    color: #fff;
+}
+
+/* Add this to your CSS file */
+.home-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: #f32121; /* Blue color, you can change this */
+    color: #fff; /* White text, you can change this */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  .home-button:hover {
+    background-color: #0e76a8; /* Darker shade of blue on hover, you can change this */
+  }
+  
+  .selected {
+    background-color: #4caf50; /* Green background for selected option */
+    color: #ffffff; /* White text for selected option */
+  }
+  
